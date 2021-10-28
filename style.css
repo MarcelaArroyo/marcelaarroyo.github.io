@@ -35,15 +35,33 @@ h1{
     width: 250px;
     float: left;
     padding: 80px;
+
 }
 
-.sobreMim{
+.container{
     position: absolute;
     background-color: rosybrown;
     width: 78.4%;
     height: 500px;
     margin: 6% 0 0 10%;
+}
 
+
+#sobre-mim{
+    margin-top: 10%;
+}
+
+.container p{
+    text-align: justify;
+    line-height: 20px;
+    width: 90%;
+}
+
+
+
+ol li{
+    list-style: none;
+    line-height: 20px;
 }
 
 footer{
