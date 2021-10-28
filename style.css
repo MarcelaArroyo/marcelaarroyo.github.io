@@ -1,15 +1,17 @@
 body{
-    text-align: center;
     background-color: #87CEEB;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 h1{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-right: 46%;
+
+    text-align: center;
 }
 
+
 .principal{
+    text-align: center;
     background-color: rosybrown;
     height: 40px;
     max-width: 80%;
@@ -26,44 +28,65 @@ h1{
     display: inline-block;
     line-height: 2.5;
     margin: auto 50px;
-}
-
-img{
-    display: inline-block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.sobreMim{
-    background-color: rosybrown;
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 20px;
     
 }
 
-#listaHabilidades{
+#minhaFoto{
+    width: 250px;
+    float: left;
+    padding: 80px;
+
+}
+
+.container{
+    position: absolute;
+    background-color: rosybrown;
+    width: 78.4%;
+    height: 600px;
+    margin: 6% 0 0 10%;
+}
+
+
+#sobre-mim{
+    margin-top: 10%;
+}
+
+.container p{
+    text-align: justify;
+    line-height: 20px;
+    width: 90%;
+}
+
+.habilidades{
+    position: absolute;
+    right: 19.4%;
+    top: 64%;
+    width: 70%;
+    
+}
+
+
+ol li{
     list-style: none;
     line-height: 20px;
+    
 }
 
-h2{
-    font-size: 26px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+footer{
+    
+    position: absolute;
+    bottom: 20px;
+    left: 120px;
+    width: 80%;
+    text-align: center;
+    
+    
 }
 
-p{
-    font-size: 16px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 24px;
+footer ul{
+    list-style: none;
 }
 
-#contatos li{
-    list-style-type: none;
-}
-
-li{
-    font-size: 16;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 24px;
+footer ul li{
+    line-height: 20px;
 }
